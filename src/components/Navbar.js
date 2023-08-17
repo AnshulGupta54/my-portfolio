@@ -1,4 +1,4 @@
-import { NavLink, redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar=()=>{
     return(
@@ -7,7 +7,7 @@ const Navbar=()=>{
             <div className=" flex justify-between w-96 text-white mr-20 ">
             <NavLink to='/' className='active:underline'>Home</NavLink>
             <NavLink to="/about">About Me</NavLink>
-            <p>My Skills</p>
+            <NavLink to="/skills">My Skills</NavLink>
             <p>My Projects</p>
             </div>
             <div className=" text-center ml-96 border-2 bg-white text-black rounded w-32">
