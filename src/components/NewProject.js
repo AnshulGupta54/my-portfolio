@@ -5,7 +5,7 @@ const NewProject = ({ name, info, image, link, host }) => {
     <Link
       to={host}
       target="_blank"
-      className=" hover:border-2 hover:border-yellow-500 rounded-md w-3/4 md:w-2/5 mb-14 h-96"
+      className=" hover:border-2 hover:border-yellow-500 rounded-md w-3/4 md:w-2/5 mb-14 h-96 hover:scale-110"
     >
       <img className=" h-3/4" src={image} />
       <hr />

@@ -27,7 +27,7 @@ const About = () => {
         development.
       </div>
     </div>
-    <img src={coder} className=' rounded-md border-2  w-3/4 h-1/2 mt-5 md:mt-40 md:ml-10 mb-5 md:w-1/3 md:mr-24 ' />
+    <img src={coder} className=' rounded-md border-2  w-3/4 h-1/2 mt-5 md:mt-44 md:ml-10 mb-5 md:w-1/3 md:mr-24 ' />
     </div>
   );
 };

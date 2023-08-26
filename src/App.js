@@ -6,6 +6,7 @@ import Layout from "./pages/Layout";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import Education from "./pages/Education";
 
 function App() {
   const router = createBrowserRouter([
@@ -13,6 +14,7 @@ function App() {
       {index:true , element: <Home />},
       { path: "/contact", element: <Contact /> },
       {path:"/about", element: <About />},
+      {path:"/education", element: <Education />},
       {path:"/skills", element: <Skills />},
       {path:"/projects", element: <Projects />},
 
@@ -20,7 +22,7 @@ function App() {
     
   ]);
 
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router} />
 }
 
 export default App;
